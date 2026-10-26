@@ -1,0 +1,279 @@
+{
+ "id": 20240,
+ "slug": "lappajarven-urheilupuisto",
+ "nimi": "Lappajärven urheilupuisto",
+ "paikka": "Lappajärvi",
+ "osoite": "Nissintie",
+ "layout": null,
+ "vayla_count": 9,
+ "haettu": "2026-10-26",
+ "lahde": "https://discgolfmetrix.com/course/20240",
+ "pituus_total": "672m",
+ "par": [
+  "3",
+  "3",
+  "3",
+  "3",
+  "3",
+  "3",
+  "3",
+  "3",
+  "3",
+  "27",
+  "-"
+ ],
+ "avg": [
+  "3.13",
+  "3.20",
+  "3.20",
+  "2.80",
+  "2.60",
+  "3.13",
+  "2.93",
+  "2.27",
+  "2.80",
+  "26.07",
+  "-"
+ ],
+ "over_all": [
+  0.13,
+  0.2,
+  0.2,
+  -0.2,
+  -0.4,
+  0.13,
+  -0.07,
+  -0.73,
+  -0.2
+ ],
+ "difficulty": [
+  "4",
+  "2",
+  "1",
+  "7",
+  "8",
+  "3",
+  "5",
+  "9",
+  "6",
+  "-",
+  "-"
+ ],
+ "diffCls": [
+  "cell-orange",
+  "cell-red",
+  "cell-red",
+  "cell-green",
+  "cell-green",
+  "cell-orange",
+  "cell-yellow",
+  "cell-green",
+  "cell-yellow",
+  "cell-dark",
+  "cell-dark"
+ ],
+ "luokitus": [
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 26.7,
+   "basis": "kaikki"
+  },
+  {
+   "label": "EROTTELEVA",
+   "cls": "cell-orange",
+   "pct": 6.7,
+   "basis": "kaikki"
+  },
+  {
+   "label": "EROTTELEVA",
+   "cls": "cell-orange",
+   "pct": 6.7,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 33.3,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 40.0,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 26.7,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 20.0,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 73.3,
+   "basis": "kaikki"
+  },
+  {
+   "label": "HELPPO",
+   "cls": "cell-green",
+   "pct": 46.7,
+   "basis": "kaikki"
+  }
+ ],
+ "birdie_pct": [
+  26.7,
+  6.7,
+  6.7,
+  33.3,
+  40.0,
+  26.7,
+  20.0,
+  73.3,
+  46.7
+ ],
+ "risk": [
+  "0.0%",
+  "13.3%",
+  "6.7%",
+  "0.0%",
+  "0.0%",
+  "6.7%",
+  "0.0%",
+  "0.0%",
+  "6.7%",
+  "3.7%",
+  "-"
+ ],
+ "hio": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  "0.0%"
+ ],
+ "eagle": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  "0.0%"
+ ],
+ "birdie": [
+  4,
+  1,
+  1,
+  5,
+  6,
+  4,
+  3,
+  11,
+  7,
+  42,
+  "31.1%"
+ ],
+ "par0": [
+  5,
+  12,
+  11,
+  8,
+  9,
+  6,
+  10,
+  4,
+  6,
+  71,
+  "52.6%"
+ ],
+ "bogey": [
+  6,
+  0,
+  2,
+  2,
+  0,
+  4,
+  2,
+  0,
+  1,
+  17,
+  "12.6%"
+ ],
+ "dbl": [
+  0,
+  2,
+  1,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  4,
+  "3.0%"
+ ],
+ "tpl": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  "0.7%"
+ ],
+ "other": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  "0.0%"
+ ],
+ "plays_per_hole": [
+  15,
+  15,
+  15,
+  15,
+  15,
+  15,
+  15,
+  15,
+  15
+ ],
+ "kilpailut": [
+  {
+   "pvm": "2020-09-26",
+   "nimi": "Kivitippu cup",
+   "pelaajia": 12,
+   "url": "https://discgolfmetrix.com/1485254"
+  }
+ ],
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈15 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+}
