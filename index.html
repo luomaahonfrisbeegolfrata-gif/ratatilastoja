@@ -26,7 +26,7 @@ header{min-height:56px;background:#0f0f0f;border-bottom:1px solid #242424;displa
 .vayla-table-wrap{overflow:auto;background:#0a0a0a}
 table.vayla{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px}
 table.vayla th{background:#222;color:#fff;padding:8px 4px;text-align:center;border:1px solid #2a2a2a;position:sticky;top:0;z-index:3}
-table.vayla th:first-child{width:118px;text-align:left;padding-left:12px;left:0;z-index:4}
+table.vayla th:first-child{width:var(--c0,118px);text-align:left;padding-left:12px;left:0;z-index:4}
 table.vayla td{padding:6px 4px;text-align:center;border:1px solid #1e1e1e;background:#0a0a0a;font-variant-numeric:tabular-nums}
 table.vayla td:first-child{text-align:left;padding-left:12px;background:#111;position:sticky;left:0;z-index:2;font-weight:700}
 .cell-red{background:#e5534b!important;color:#000!important;font-weight:700}.cell-yellow{background:#ffeb3b!important;color:#000!important;font-weight:700}.cell-green{background:#66bb6a!important;color:#000!important;font-weight:700}.cell-orange{background:#ff9800!important;color:#000!important;font-weight:700}.cell-dark{background:#222!important;color:#888!important}
@@ -34,7 +34,14 @@ table.vayla td:first-child{text-align:left;padding-left:12px;background:#111;pos
 .sub{font-size:8px;display:block;line-height:1.1;margin-top:2px;opacity:.9;color:#000;font-weight:700}
 .sparkline{width:100px;height:22px;display:block;margin:0 auto}
 .cell-trendi{background:#0f0f0f!important;border-left:2px solid #1aff1a!important}
-.trendi-header{color:#1aff1a!important;background:#111!important;border-left:2px solid #1aff1a!important;width:118px}
+.trendi-header{color:#1aff1a!important;background:#111!important;border-left:2px solid #1aff1a!important;width:var(--cp,118px)}
+.vayla-table-wrap::-webkit-scrollbar{height:10px}.vayla-table-wrap::-webkit-scrollbar-thumb{background:#1aff1a66;border-radius:5px}.vayla-table-wrap::-webkit-scrollbar-track{background:#111}
+.vayla-table-wrap{scrollbar-color:#1aff1a66 #111}
+.scroll-hint{font-size:10px;color:#1aff1a;padding:4px 12px;background:#111;border-bottom:1px solid #242424}
+table.vayla.narrow td,table.vayla.narrow th{font-size:11px;padding-left:2px;padding-right:2px}
+table.vayla.narrow td:first-child,table.vayla.narrow th:first-child{padding-left:8px}
+table.vayla.narrow .lk{font-size:9px!important;letter-spacing:-.3px}
+.sparkline{max-width:100%}
 .note{font-size:9px;color:#777;padding:5px 12px}
 .corr{margin:8px 12px 10px;background:#0f0f0f;border:1px solid #1e1e1e;border-radius:8px;padding:8px 10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .corr b{font-size:8px;color:#666;letter-spacing:.6px}
@@ -60,7 +67,7 @@ footer a{color:#888}
   <div class="info" id="info"></div>
   <div class="card-bottom">
     <div class="vayla-header"><h3 id="vayla-title">VÄYLÄTILASTO</h3><div class="live-badge" id="badge">Metrix</div></div>
-    <div class="vayla-table-wrap"><table class="vayla" id="vayla"><thead><tr id="vayla-head"></tr></thead><tbody id="vayla-body"></tbody></table></div>
+    <div class="scroll-hint" id="scroll-hint" hidden>Taulukko jatkuu oikealle, vieritä sivusuunnassa →</div><div class="vayla-table-wrap"><table class="vayla" id="vayla"><thead><tr id="vayla-head"></tr></thead><tbody id="vayla-body"></tbody></table></div>
     <div class="corr" id="corr"></div>
     <div class="note" id="vayla-note"></div>
   </div>
@@ -90,8 +97,17 @@ function renderInfo(v){
 function renderVayla(v){
   const N=v.vayla_count;
   const table=document.getElementById("vayla");
-  table.style.minWidth=(118+N*72+2*70+118)+"px";
-  document.getElementById("vayla-head").innerHTML='<th>Väylä</th>'+Array.from({length:N},(_,i)=>'<th>'+(i+1)+'</th>').join("")+'<th style="width:70px">Tot</th><th style="width:70px">%</th><th class="trendi-header">VÄYLÄPROFIILI</th>';
+  const avail=document.querySelector(".vayla-table-wrap").clientWidth||1200;
+  const c0=avail<900?96:118, cTot=60, cPct=54, cp=avail<900?90:104;
+  const fixed=c0+cTot+cPct+cp;
+  const holeW=Math.max(40,Math.min(80,Math.floor((avail-fixed)/N)));
+  const narrow=holeW<64;
+  table.style.setProperty("--c0",c0+"px"); table.style.setProperty("--cp",cp+"px");
+  table.classList.toggle("narrow",narrow);
+  const total=fixed+holeW*N;
+  table.style.minWidth=total+"px"; table.style.width=total>avail?total+"px":"100%";
+  document.getElementById("scroll-hint").hidden=!(total>avail+2);
+  document.getElementById("vayla-head").innerHTML='<th>Väylä</th>'+Array.from({length:N},(_,i)=>'<th>'+(i+1)+'</th>').join("")+'<th style="width:'+cTot+'px">Tot</th><th style="width:'+cPct+'px">%</th><th class="trendi-header">VÄYLÄPROFIILI</th>';
   const dash=Array(N).fill("-");
   const plays=v.plays_per_hole, pct=(arr)=>arr.slice(0,N).map((c,i)=>c/plays[i]*100);
   const rows=[
@@ -115,9 +131,9 @@ function renderVayla(v){
   rows.forEach((row,ri)=>{
     let html='<td>'+esc(row[0])+'</td>';
     if(row[1]==="LK"){
-      html+=v.luokitus.map(lk=>'<td class="lk '+lk.cls+'" title="Birdie tai parempi '+lk.pct.toFixed(1)+' % kaikista tuloksista">'+lk.label+'<span class="sub">'+lk.pct.toFixed(1)+'%</span></td>').join("")+'<td>-</td><td>-</td>';
+      html+=v.luokitus.map(lk=>'<td class="lk '+lk.cls+'" title="'+lk.label+': birdie tai parempi '+lk.pct.toFixed(1)+' % kaikista tuloksista">'+(holeW<72?({HELPPO:"HELPPO",EROTTELEVA:"EROTT.",VAIKEA:"VAIKEA"}[lk.label]||lk.label):lk.label)+'<span class="sub">'+lk.pct.toFixed(1)+'%</span></td>').join("")+'<td>-</td><td>-</td>';
     }else if(row[1]==="VK"){
-      html+=v.difficulty.slice(0,N).map((d,i)=>{const o=v.over_all[i];return '<td class="'+v.diffCls[i]+'" title="Keskitulos '+v.avg[i]+', par '+v.par[i]+'">'+d+'/'+N+'<span class="sub">'+(o>=0?"+":"")+o.toFixed(2)+' ka.</span></td>';}).join("")+'<td>-</td><td>-</td>';
+      html+=v.difficulty.slice(0,N).map((d,i)=>{const o=v.over_all[i];return '<td class="'+v.diffCls[i]+'" title="Keskitulos '+v.avg[i]+', par '+v.par[i]+'">'+d+'/'+N+'<span class="sub">'+(o>=0?"+":"")+o.toFixed(2)+(narrow?'':' ka.')+'</span></td>';}).join("")+'<td>-</td><td>-</td>';
     }else{
       html+=row.slice(1).map(c=>'<td>'+esc(c)+'</td>').join("");
     }
@@ -145,6 +161,7 @@ function select(id){
 }
 document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest(".tab");if(b)select(b.dataset.id)});
 window.addEventListener("hashchange",()=>select(location.hash.slice(1)));
+let rsz;window.addEventListener("resize",()=>{clearTimeout(rsz);rsz=setTimeout(()=>renderVayla(cur),150)});
 if(!select((location.hash||"").slice(1)))select(RADAT[0].slug);
 </script>
 </body></html>
