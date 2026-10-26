@@ -1,0 +1,46 @@
+name: Päivitä ratatilastot
+
+on:
+  schedule:
+    # Maanantaisin klo 04:00 UTC = klo 6 talviaikaan / klo 7 kesäaikaan Suomessa
+    - cron: "0 4 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paivita
+  cancel-in-progress: false
+
+jobs:
+  paivita:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Hae tilastot Metrixistä
+        run: python3 scripts/paivita.py
+
+      - name: Päivitä kuvat
+        run: |
+          pip install --quiet playwright==1.49.1
+          python3 -m playwright install --with-deps chromium
+          python3 scripts/kuvat.py
+
+      - name: Tallenna muutokset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add data index.html kuvat
+          if git diff --cached --quiet; then
+            echo "Ei muutoksia."
+          else
+            git commit -m "Ratatilastot päivitetty $(date -u +%Y-%m-%d)"
+            git push
+          fi

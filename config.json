@@ -1,0 +1,76 @@
+{
+  "radat": [
+    {
+      "id": 7406,
+      "slug": "alajarvi-discgolfpark",
+      "nimi": "Alajärvi DiscGolfPark",
+      "paikka": "Alajärvi",
+      "osoite": "Soinintie",
+      "layout": null
+    },
+    {
+      "id": 35822,
+      "slug": "valkealampi-discgolfpark",
+      "nimi": "Valkealampi DiscGolfPark",
+      "paikka": "Alajärvi (Lehtimäki)",
+      "osoite": "Valkealammentie 185",
+      "layout": null
+    },
+    {
+      "id": 25370,
+      "slug": "vimpelin-frisbeegolfrata",
+      "nimi": "Vimpelin frisbeegolfrata – Vatpakka",
+      "paikka": "Vimpeli",
+      "osoite": "Lähdetie 31",
+      "layout": null
+    },
+    {
+      "id": 35723,
+      "slug": "valijoki-discgolfpark",
+      "nimi": "Välijoki DiscGolfPark",
+      "paikka": "Lappajärvi",
+      "osoite": "Välijoentie",
+      "layout": "Viikkarileiska 2.0"
+    },
+    {
+      "id": 20240,
+      "slug": "lappajarven-urheilupuisto",
+      "nimi": "Lappajärven urheilupuisto",
+      "paikka": "Lappajärvi",
+      "osoite": "Nissintie",
+      "layout": null
+    },
+    {
+      "id": 18840,
+      "slug": "patanan-frisbeegolfrata",
+      "nimi": "Patanan frisbeegolfrata",
+      "paikka": "Veteli",
+      "osoite": "",
+      "layout": null
+    },
+    {
+      "id": 35170,
+      "slug": "paavonkallio-discgolfcenter",
+      "nimi": "Paavonkallio DiscGolfCenter",
+      "paikka": "Perho",
+      "osoite": "",
+      "layout": null
+    },
+    {
+      "id": 15204,
+      "slug": "evijarven-frisbeegolf",
+      "nimi": "Evijärven Frisbeegolf – Nissinkangas",
+      "paikka": "Evijärvi",
+      "osoite": "Pukkilantie",
+      "layout": null
+    },
+    {
+      "id": 6393,
+      "slug": "lapua-frisbeegolf",
+      "nimi": "Lapua Frisbeegolf – Simpsiö",
+      "paikka": "Lapua",
+      "osoite": "Urheilumajantie",
+      "layout": null
+    }
+  ]
+}

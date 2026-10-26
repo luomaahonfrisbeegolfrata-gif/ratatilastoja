@@ -2,7 +2,7 @@
 
 Väylätilastot yhdeksälle Järviseudun ja lähialueen frisbeegolfradalle Luoma-ahon Frisbeegolfradan tilastosivun tyylillä.
 
-Data on haettu Disc Golf Metrixin ratasivuilta 26.10.2026. Tilastot eivät päivity automaattisesti.
+Data haetaan Disc Golf Metrixin ratasivuilta automaattisesti joka maanantai (GitHub Actions, `.github/workflows/paivita.yml`).
 
 Sivu: `index.html` (radan voi avata suoraan osoitteen perään lisättävällä tunnuksella, esim. `#vimpelin-frisbeegolfrata`).
 
@@ -25,3 +25,10 @@ Sivu: `index.html` (radan voi avata suoraan osoitteen perään lisättävällä 
 - `data/` – radan tiedot JSON-muodossa (`radat.json` sisältää kaikki)
 
 Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie tai parempi -osuus kaikista tuloksista: HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Metrix ei julkaise väyläkohtaisia pituuksia.
+
+## Päivitys
+
+- Ajastus: maanantaisin klo 6–7 Suomen aikaa. Ajon voi käynnistää myös käsin: **Actions → Päivitä ratatilastot → Run workflow**.
+- `scripts/paivita.py` hakee jokaisen radan Metrix-sivun, laskee tilastot ja päivittää `data/`-tiedostot sekä `index.html`:n datan. Jos jonkin radan haku epäonnistuu, sen edellinen data säilyy.
+- `scripts/kuvat.py` piirtää kuvat uudelleen kansioon `kuvat/`.
+- Uuden radan saa mukaan lisäämällä sen `config.json`-tiedostoon (Metrix-ID, tunniste, nimi ja paikkakunta).
