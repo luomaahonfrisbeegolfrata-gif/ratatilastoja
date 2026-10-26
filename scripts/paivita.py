@@ -82,9 +82,13 @@ def parse_stats(src):
             if label in names:
                 found[key] = [num(c) for c in r[1:1 + n]]
                 break
-    missing = [k for k, _ in ROWS if k not in found and k not in ("avg", "rank")]
+    # Metrix jättää rivin pois, jos sillä ei ole yhtään tulosta (esim. Hole in one)
+    missing = [k for k in ("par", "par0") if k not in found]
     if missing:
         raise ValueError("puuttuvat rivit: " + ", ".join(missing))
+    for k, _ in ROWS:
+        if k not in found and k not in ("avg", "rank"):
+            found[k] = [0.0] * n
     out = []
     for i in range(n):
         h = {k: int(found[k][i]) for k, _ in ROWS if k in found and k not in ("avg", "rank")}

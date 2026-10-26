@@ -1,6 +1,6 @@
 # Järviseudun ratatilastot
 
-Väylätilastot yhdeksälle Järviseudun ja lähialueen frisbeegolfradalle Luoma-ahon Frisbeegolfradan tilastosivun tyylillä.
+Väylätilastot Järviseudun ja lähialueen frisbeegolfradoille Luoma-ahon Frisbeegolfradan tilastosivun tyylillä.
 
 Data haetaan Disc Golf Metrixin ratasivuilta automaattisesti joka maanantai (GitHub Actions, `.github/workflows/paivita.yml`).
 
@@ -17,6 +17,10 @@ Sivu: `index.html` (radan voi avata suoraan osoitteen perään lisättävällä 
 | Paavonkallio DiscGolfCenter | Perho | 19 | 60 | 64.12 | [35170](https://discgolfmetrix.com/course/35170) | [kuva](kuvat/paavonkallio-discgolfcenter.png) | [json](data/paavonkallio-discgolfcenter.json) |
 | Evijärven Frisbeegolf – Nissinkangas | Evijärvi | 18 | 55 | 55.48 | [15204](https://discgolfmetrix.com/course/15204) | [kuva](kuvat/evijarven-frisbeegolf.png) | [json](data/evijarven-frisbeegolf.json) |
 | Lapua Frisbeegolf – Simpsiö | Lapua | 18 | 60 | 71.51 | [6393](https://discgolfmetrix.com/course/6393) | [kuva](kuvat/lapua-frisbeegolf.png) | [json](data/lapua-frisbeegolf.json) |
+| Ahonkylä Disc Golf | Ilmajoki | 18 | 61 | 67.54 | [46755](https://discgolfmetrix.com/course/46755) | [kuva](kuvat/ahonkyla-disc-golf.png) | [json](data/ahonkyla-disc-golf.json) |
+| Malluusen frisbeegolfrata AMA | Kuortane | 18 | 59 | 62.32 | [46844](https://discgolfmetrix.com/course/46844) | [kuva](kuvat/malluusen-frisbeegolfrata-ama.png) | [json](data/malluusen-frisbeegolfrata-ama.json) |
+| Malluusen frisbeegolfrata PRO | Kuortane | 18 | 64 | 75.64 | [46842](https://discgolfmetrix.com/course/46842) | [kuva](kuvat/malluusen-frisbeegolfrata-pro.png) | [json](data/malluusen-frisbeegolfrata-pro.json) |
+| Halsua DiscGolfPark | Halsua | 20 | 63 | 64.81 | [24166](https://discgolfmetrix.com/course/24166) | [kuva](kuvat/halsua-discgolfpark.png) | [json](data/halsua-discgolfpark.json) |
 
 ## Sisältö
 

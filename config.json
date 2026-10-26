@@ -71,6 +71,38 @@
       "paikka": "Lapua",
       "osoite": "Urheilumajantie",
       "layout": null
+    },
+    {
+      "id": 46755,
+      "slug": "ahonkyla-disc-golf",
+      "nimi": "Ahonkylä Disc Golf",
+      "paikka": "Ilmajoki",
+      "osoite": "Terontie",
+      "layout": "NEW 2026"
+    },
+    {
+      "id": 46844,
+      "slug": "malluusen-frisbeegolfrata-ama",
+      "nimi": "Malluusen frisbeegolfrata AMA",
+      "paikka": "Kuortane",
+      "osoite": "Malluusentie",
+      "layout": "2026 AMA"
+    },
+    {
+      "id": 46842,
+      "slug": "malluusen-frisbeegolfrata-pro",
+      "nimi": "Malluusen frisbeegolfrata PRO",
+      "paikka": "Kuortane",
+      "osoite": "Malluusentie",
+      "layout": "2026 PRO"
+    },
+    {
+      "id": 24166,
+      "slug": "halsua-discgolfpark",
+      "nimi": "Halsua DiscGolfPark",
+      "paikka": "Halsua",
+      "osoite": "Tynkkisentie",
+      "layout": "Halsua DGP Par-63"
     }
   ]
 }
