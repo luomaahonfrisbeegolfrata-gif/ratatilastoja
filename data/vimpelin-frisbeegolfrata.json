@@ -6,7 +6,7 @@
  "osoite": "Lähdetie 31",
  "layout": null,
  "vayla_count": 21,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/25370",
  "pituus_total": "1803m",
  "par": [
@@ -534,22 +534,22 @@
  "kilpailut": [
   {
    "pvm": "2026-10-10",
-   "nimi": "Järviseudun mestaruuskisa vol.6 – 2. kierros",
+   "nimi": "Järviseudun mestaruuskisa vol.6 – 2. Kierros",
    "pelaajia": 35,
    "url": "https://discgolfmetrix.com/3816599"
+  },
+  {
+   "pvm": "2026-10-10",
+   "nimi": "Järviseudun mestaruuskisa vol.6 – 1.Kierros",
+   "pelaajia": 35,
+   "url": "https://discgolfmetrix.com/3816303"
   },
   {
    "pvm": "2026-08-20",
    "nimi": "JSDGC viikkarit 2026 – Vatpakka #4",
    "pelaajia": 10,
    "url": "https://discgolfmetrix.com/3758897"
-  },
-  {
-   "pvm": "2026-05-30",
-   "nimi": "JSDGC viikkarit 2026 – Vatpakka #2",
-   "pelaajia": 15,
-   "url": "https://discgolfmetrix.com/3642043"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈722 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈722 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

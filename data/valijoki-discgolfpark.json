@@ -6,7 +6,7 @@
  "osoite": "Välijoentie",
  "layout": "Viikkarileiska 2.0",
  "vayla_count": 20,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/35723",
  "pituus_total": "2223m",
  "par": [
@@ -517,17 +517,17 @@
    "url": "https://discgolfmetrix.com/3769899"
   },
   {
+   "pvm": "2026-08-06",
+   "nimi": "JSDGC viikkarit 2026 – Välijoki #5",
+   "pelaajia": 12,
+   "url": "https://discgolfmetrix.com/3735571"
+  },
+  {
    "pvm": "2026-07-23",
    "nimi": "JSDGC viikkarit 2026 – Välijoki #4",
    "pelaajia": 24,
    "url": "https://discgolfmetrix.com/3715773"
-  },
-  {
-   "pvm": "2026-07-18",
-   "nimi": "Välijoki Open 2026 – 2. kierros",
-   "pelaajia": 47,
-   "url": "https://discgolfmetrix.com/3714294"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈688 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈688 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

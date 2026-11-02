@@ -6,7 +6,7 @@
  "osoite": "Nissintie",
  "layout": null,
  "vayla_count": 9,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/20240",
  "pituus_total": "672m",
  "par": [
@@ -270,10 +270,10 @@
  "kilpailut": [
   {
    "pvm": "2020-09-26",
-   "nimi": "Kivitippu cup",
+   "nimi": "Kivitippu cup – Kivitippu cup",
    "pelaajia": 12,
    "url": "https://discgolfmetrix.com/1485254"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈15 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈15 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

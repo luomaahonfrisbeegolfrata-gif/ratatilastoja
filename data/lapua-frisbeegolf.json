@@ -6,7 +6,7 @@
  "osoite": "Urheilumajantie",
  "layout": null,
  "vayla_count": 18,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/6393",
  "pituus_total": "2209m",
  "par": [
@@ -468,22 +468,22 @@
  "kilpailut": [
   {
    "pvm": "2026-06-04",
-   "nimi": "Simpsiön viikkokisat 2026 #3",
+   "nimi": "Kilpailut – Viikkokisat – Simpsiö – 2026 – # 3",
    "pelaajia": 13,
    "url": "https://discgolfmetrix.com/3648003"
   },
   {
    "pvm": "2026-05-28",
-   "nimi": "Simpsiön viikkokisat 2026 #2",
+   "nimi": "Kilpailut – Viikkokisat – Simpsiö – 2026 – #2",
    "pelaajia": 12,
    "url": "https://discgolfmetrix.com/3637830"
   },
   {
    "pvm": "2026-05-21",
-   "nimi": "Simpsiön viikkokisat 2026 #1",
+   "nimi": "Kilpailut – Viikkokisat – Simpsiö – 2026 – #1",
    "pelaajia": 17,
    "url": "https://discgolfmetrix.com/3612469"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈2194 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈2194 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

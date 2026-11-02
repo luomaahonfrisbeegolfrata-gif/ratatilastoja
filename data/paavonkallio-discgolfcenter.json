@@ -6,7 +6,7 @@
  "osoite": "",
  "layout": null,
  "vayla_count": 19,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/35170",
  "pituus_total": "1856m",
  "par": [
@@ -501,11 +501,11 @@
    "url": "https://discgolfmetrix.com/3597710"
   },
   {
-   "pvm": "2026-07-17",
-   "nimi": "Perhon parikilpailu 2026, heinäkuu",
-   "pelaajia": 14,
-   "url": "https://discgolfmetrix.com/3616603"
+   "pvm": "2026-07-31",
+   "nimi": "Perhon viikkokilpailu – Perho 2026 #6",
+   "pelaajia": 12,
+   "url": "https://discgolfmetrix.com/3597709"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈1090 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈1090 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

@@ -6,7 +6,7 @@
  "osoite": "Valkealammentie 185",
  "layout": null,
  "vayla_count": 18,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/35822",
  "pituus_total": "1766m",
  "par": [
@@ -474,10 +474,16 @@
   },
   {
    "pvm": "2024-06-15",
-   "nimi": "ÄLeSo Tour – Valkealammen osakilpailu, 2. kierros",
+   "nimi": "ÄLeSo Tour – 3. Valkealammen osakilpailu – 2. Kierros",
    "pelaajia": 12,
    "url": "https://discgolfmetrix.com/2825944"
+  },
+  {
+   "pvm": "2024-06-15",
+   "nimi": "ÄLeSo Tour – 3. Valkealammen osakilpailu – 1. Kierros",
+   "pelaajia": 12,
+   "url": "https://discgolfmetrix.com/2825943"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈52 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈52 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

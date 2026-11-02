@@ -6,7 +6,7 @@
  "osoite": "Pukkilantie",
  "layout": null,
  "vayla_count": 18,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/15204",
  "pituus_total": "925m",
  "par": [
@@ -474,16 +474,16 @@
   },
   {
    "pvm": "2026-04-07",
-   "nimi": "JSDGC viikkarit 2026 – Nissinkangas #1",
+   "nimi": "JSDGC viikkarit 2026 – Nissinkangas#1",
    "pelaajia": 17,
    "url": "https://discgolfmetrix.com/3560876"
   },
   {
-   "pvm": "2024-09-14",
-   "nimi": "Järviseudun mestaruuskisat vol.4",
-   "pelaajia": 24,
-   "url": "https://discgolfmetrix.com/3119662"
+   "pvm": "2025-08-26",
+   "nimi": "JSDGC viikkarit 2026 – Nissinkangas #3",
+   "pelaajia": 12,
+   "url": "https://discgolfmetrix.com/3439669"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈671 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈671 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }

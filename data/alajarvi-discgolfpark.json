@@ -6,7 +6,7 @@
  "osoite": "Soinintie",
  "layout": null,
  "vayla_count": 18,
- "haettu": "2026-10-26",
+ "haettu": "2026-11-02",
  "lahde": "https://discgolfmetrix.com/course/7406",
  "pituus_total": "-",
  "par": [
@@ -468,22 +468,22 @@
  "kilpailut": [
   {
    "pvm": "2025-05-25",
-   "nimi": "SaFrin Seurareissu 2025 – 6. kierros",
+   "nimi": "SaFrin Seurareissu 2025. – 6. Kierros",
    "pelaajia": 25,
    "url": "https://discgolfmetrix.com/3312703"
   },
   {
    "pvm": "2022-06-29",
-   "nimi": "Alajärven viikkokisat – 6. kierros",
+   "nimi": "Alajärven viikkokisat  – 6. Kierros",
    "pelaajia": 16,
    "url": "https://discgolfmetrix.com/2205173"
   },
   {
    "pvm": "2022-06-15",
-   "nimi": "Alajärven viikkokisat – 4. kierros",
+   "nimi": "Alajärven viikkokisat  – 4. Kierros",
    "pelaajia": 14,
    "url": "https://discgolfmetrix.com/2178613"
   }
  ],
- "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈1009 tulosta/väylä), haettu 26.10.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
+ "note": "Väyläjakaumat: Metrixin ratasivun tilastot kaikista radalle kirjatuista tuloksista (n≈1009 tulosta/väylä), haettu 2.11.2026. Vaikeus = väylän keskitulos suhteessa pariin (1 = vaikein). Luokitus = birdie- tai parempi -osuus kaikilla pelaajilla; HELPPO ≥ 15 % (par 4–5: 20 %), EROTTELEVA ≥ 5 %, muuten VAIKEA. Keskitulokset laskettu Metrixin tulosjakaumasta (Other >3 = +4). Väyläkohtaisia pituuksia Metrix ei julkaise."
 }
