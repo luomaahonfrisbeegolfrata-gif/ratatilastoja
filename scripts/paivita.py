@@ -159,7 +159,7 @@ def build(cfg, H, length, events, haettu):
     pvm = dt.date.fromisoformat(haettu).strftime("%-d.%-m.%Y")
     return dict(
         id=cfg["id"], slug=cfg["slug"], nimi=cfg["nimi"], paikka=cfg["paikka"], osoite=cfg.get("osoite", ""),
-        layout=cfg.get("layout"), vayla_count=N, haettu=haettu,
+        layout=cfg.get("layout"), demo_until=cfg.get("demo_until"), vayla_count=N, haettu=haettu,
         lahde=f"https://discgolfmetrix.com/course/{cfg['id']}",
         pituus_total=f"{length}m" if length else "-",
         par=[str(h["par"]) for h in H] + [str(s("par")), "-"],

@@ -5,6 +5,11 @@ on:
     # Maanantaisin klo 04:00 UTC = klo 6 talviaikaan / klo 7 kesäaikaan Suomessa
     - cron: "0 4 * * 1"
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - config.json
+      - scripts/paivita.py
 
 permissions:
   contents: write
